@@ -1,0 +1,10 @@
+[package]
+name = "auth_service"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.5"
+serde = { version = "1.0.202", features = ["derive"] }
+surrealdb = { version = "1.5.0", features = ["kv-mem"] }
+tokio = { version = "1.37.0", features = ["rt", "rt-multi-thread", "macros"] }
