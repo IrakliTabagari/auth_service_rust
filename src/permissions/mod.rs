@@ -1,2 +1,3 @@
 pub mod api;
-mod service;
+pub mod service;
+mod models;
